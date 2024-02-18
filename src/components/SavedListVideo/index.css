@@ -1,0 +1,29 @@
+.savevideo {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.saved-img {
+  width: 100%;
+}
+.saved-img-div {
+  width: 45%;
+}
+.saved-des {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.saved-title {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+.saved-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}

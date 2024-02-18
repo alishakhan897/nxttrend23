@@ -1,0 +1,30 @@
+.detailvideo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailvideo2 {
+  display: flex;
+  gap: 2rem;
+}
+.likeicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.detail-profile {
+  display: flex;
+  gap: 2rem;
+}
+.profile-game {
+  width: 40px;
+}
+.blue {
+  color: blue;
+  cursor: pointer;
+}
+.grey {
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.unorder-gaming2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.videos-div5 {
+  height: 100vh;
+  padding-top: 15px;
+  background-color: #f8fafc;
+  background-size: cover;
+  width: 100%;
+}

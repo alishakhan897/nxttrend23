@@ -1,0 +1,27 @@
+.trendinglist {
+  display: flex;
+  flex-direction: row;
+
+  width: 80%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.trending-card {
+  height: 200px;
+}
+.trending-title-div {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.trendingname {
+  padding: 0px;
+  margin: 0px;
+}
+.trendingviewcard {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 2.5rem;
+}

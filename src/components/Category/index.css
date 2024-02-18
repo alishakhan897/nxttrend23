@@ -1,0 +1,46 @@
+.icon-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-div2 {
+  display: flex;
+
+  margin-top: 12px;
+}
+.homeicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  gap: 2.5rem;
+}
+.main-icon-div {
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+
+  height: 100vh;
+}
+.contact-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.facebook {
+  height: 30px;
+}
+.light-grey {
+  background-color: #cbd5e1;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.link-design {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.navbar {
+  width: 100%;
+}
+.navitems {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+.nav-img {
+  height: 30px;
+}
+.profile {
+  height: 20px;
+}
+.second-div-nav {
+  display: flex; /* Add this line to make the div a flex container */
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.button-logout {
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 5px;
+  color: #4f46e5;
+}
+.pop-up {
+  width: 100%; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.button-popup {
+  display: flex;
+  gap: 2.3rem;
+}
+.darkbgcolor {
+  background-color: #231f20;
+}
+.darkcolor {
+  color: white;
+  border: 2px solid white;
+}
+.darkpopup {
+  background-color: #231f20;
+}
+.themebutton {
+  background-color: transparent;
+  border: 0px;
+  border-color: none;
+  outline: none;
+}

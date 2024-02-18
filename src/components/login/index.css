@@ -1,0 +1,84 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  width: 40%;
+  padding: 12px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-light {
+  height: 50px;
+}
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left: 45px;
+}
+.userfield {
+  width: 80%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 2px solid #e2e8f0;
+  outline: none;
+}
+.usernametext {
+  color: #94a3b8;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.usernametext2 {
+  color: #94a3b8;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-top: 12px;
+}
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #e2e8f0; /* Border color */
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.usernametextcheckbox {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.button-login {
+  width: 80%;
+  background-color: #3b82f6;
+  border: 0px solid;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.err {
+  color: red;
+}

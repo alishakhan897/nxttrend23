@@ -1,0 +1,49 @@
+.thumbnail {
+  height: 120px;
+}
+
+.one-card {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.profileImg {
+  height: 20px;
+}
+.profile-img-div {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  padding: 0px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.title2 {
+  padding-top: 10px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.view-count-div {
+  display: flex;
+
+  align-items: center;
+  gap: 4.5rem;
+}
+.video-li {
+  list-style-type: none;
+}
